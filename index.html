@@ -5,9 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Lobster&family=Roboto:wght@500;900&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Heebo&family=Hind+Siliguri&family=Kaushan+Script&family=Lobster&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo-container">
+          <a href="index.html">
+            <img src="./img/S.png" alt="" class="logo">
+          </a>
+        </div>
+        <ul class="nav-list">
+          <li><a class="nav-item" href="#welcome-section">Landing</a></li>
+          <li><a class="nav-item" href="#projects">Projects</a></li>
+          <li><a class="nav-item" href="#contact-section">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <div class="welcome-heading">
+          <h1>Welcome To My Page!</h1>
+          <h2>My name is Spencer and I am a web developer</h2>
+      </div>
+      <div class="founder-container">
+        <a href="about.html">
+        <img class="founder" src="./img/founder.jpg" alt="Image of Spencer">
+        </a>
+          <div class="overlay">
+            <h2>Click here to learn more about Spencer</h2>
+          </div>
+        
+      </div>
+  </section>
+  <section id="projects" class="text-center">
+    <div class="project-container">
+      <div class="projects-heading row">
+        <h2>Here are some of my projects</h2>
+        <h3>Select the image if you wish to see the webpage and the button if you wish to see the code </h3>
+      </div>
+        <div class="row px-3">
+            <div class="project-tile col-lg-4 col-md-6 col-sm-12">
+                <a href="https://skwhit.github.io/Product_Landing_Page/" target="_blank">
+                  <img src="./img/product-landing-page.PNG" alt="Avatar">
+                </a>
+                <div class="card-container">
+                  <h3><strong>Product Landing</strong></h3>
+                  <p>Example landing page for a company that sells technology products. Includes an advertising and pricing section where users can purchase a specific product.</p>
+                  <a href="https://github.com/skwhit/Product_Landing_Page" target="_blank"><button class="src-code">Code</button></a>
+                </div>
+            </div>
+            <div class="project-tile col-lg-4 col-md-6 col-sm-12">
+              <a href="https://skwhit.github.io/skw-music-studio/" target="_blank"><img src="./img/skw-music studio.PNG" alt="Avatar"></a>
+                <div class="card-container">
+                  <h3><strong>Music Studio Business</strong></h3>
+                  <p>Example music studio business site. Includes a homepage withe general information and a page where users can sign up for lessons.</p>
+                  <a href="https://github.com/skwhit/skw-music-studio" target="_blank"><button class="src-code">Code</button></a>
+                </div>
+            </div>
+            <div class="project-tile col-lg-4 col-md-6 col-sm-12">
+              <a href="https://skwhit.github.io/Technical_Documentation_Page/" target="_blank">
+                <img src="./img/technical-documentation-page.PNG" alt="Avatar" style="width:100%">
+              </a>
+                <div class="card-container">
+                  <h3><strong>Technical Documentation</strong></h3>
+                  <p>CSS documentation page where users can come to understand some of the CSS fundamentals. Navigation is organized by CSS topics.</p>
+                  <a href="https://github.com/skwhit/Technical_Documentation_Page" target="_blank"><button class="src-code">Code</button></a>
+                </div>
+            </div>
+            <div class="project-tile col-lg-4 col-md-6 col-sm-12">
+              <a href="https://skwhit.github.io/Registration-Form/" target="_blank"><img src="./img/registration-form.PNG" alt="Avatar"></a>
+                <div class="card-container">
+                  <h3><strong>Survey Form</strong></h3>
+                  <p>Survey form which asks users for input on company services. Users insert user data, select options, and input text.</p>
+                  <a href="https://github.com/skwhit/Registration-Form" target="_blank"><button class="src-code" >Code</button></a>
+                </div>
+            </div>
+            <div class="project-tile coming-soon col-lg-4 col-md-6 col-sm-12">
+              <div class="img-container">
+                <a href="" target="_blank">
+                  <img src="./img/weather-app.jpg" alt="Avatar">
+                </a>
+                <div class="overlay">
+                  <h2>Coming Soon</h2>
+                </div>
+              </div>
+                <div class="card-container">
+                  <h3><strong>Weather App</strong></h3>
+                  <p>Web application where users can search for weather reports in any city. Displays reports by day up to a week period.</p>
+                  <a href=""><button class="src-code" target="_blank">Code</button></a>
+                </div>
+            </div>
+            <div class="project-tile coming-soon col-lg-4 col-md-6 col-sm-12">
+              <div class="img-container">
+                <a href="">
+                  <img src="./img/currency-converter.jpg" alt="Avatar" target="_blank">
+                </a>
+                <div class="overlay">
+                  <h2>Coming Soon</h2>
+                </div>
+              </div>
+                <div class="card-container">
+                  <h3><strong>Foreign Currency Converter</strong></h3>
+                  <p>Web application that can convert any world currency to another in real time. User inputs the data which the app then converts.</p>
+                  <a href="" target="_blank"><button class="src-code">Code</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <div class="blue-gradient">
+    <section id="contact-section" class="contact">
+      <div class="contact-heading">
+        <h1>We should work together</h1>
+        <h2>Click on any of the links below</h2>
+    </div>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/spencer-whitlow-424029b7" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i>LinkedIn</a>
+      <a href="https://github.com/skwhit" target="_blank"><i class="fa-brands fa-github fa-lg right"></i></i>Github</a>
+      <a href="mailto:whitlowspencer@gmail.com" target="_blank"><i class="fa-solid fa-at fa-lg"></i></i></i>Email me</a>
+      <a href="Tel: 559-430-5301" target="_blank"><i class="fa-solid fa-mobile-screen-button fa-lg"></i></i></i>Cel 559-430-5301</span></a>
+    </div>
+    </section>
+    <footer>
+      <h2>
+        &copy;2022, Spencer Whitlow
+      </h2>
+    </footer>
+  </div>
+    <script src="https://kit.fontawesome.com/375d0bda74.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
