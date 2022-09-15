@@ -16,6 +16,7 @@ body {
 main {
     position: absolute;
     top: 70px;
+    width: 100%;
 }
 
 header {
@@ -105,7 +106,7 @@ header {
 }
 
 #welcome-section {
-    height: 100vh;
+    height: calc(100vh - 70px);
     /* border: 2px solid white; */
     display: flex;
     justify-content: center;
@@ -115,7 +116,9 @@ header {
     background: linear-gradient(45deg, rgb(26, 26, 29) 10%, rgb(69, 69, 74));
     /* background: black; */
     background-size: 100%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+
+    padding: 5%;
 }
 
 .welcome-heading {
