@@ -6,6 +6,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
+    max-width: 100vw;
 }
 
 body {
@@ -17,6 +18,7 @@ main {
     position: absolute;
     top: 70px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -112,11 +114,11 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 2vh;
     background: linear-gradient(45deg, rgb(26, 26, 29) 10%, rgb(69, 69, 74));
     /* background: black; */
     background-size: 100%;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 
     padding: 5%;
 }
@@ -133,7 +135,7 @@ header {
 .welcome-heading h1 {
     /* font-size: 3rem; */
     background: linear-gradient(45deg, #79B0E9, #DBCCA1, lightgrey, #DBCCA1, #79B0E9);
-    font-size: clamp(2rem, 8vw, 4.8rem);
+    font-size: clamp(3.1rem, 8vw, 10vh);
     background-size: 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,7 +148,7 @@ header {
     color: lightgrey;
     /* font-size: 1.8rem; */
     text-align: center;
-    font-size: clamp(1.5rem, 4vw, 2.4rem);
+    font-size: clamp(1.5rem, 4vw, 5vh);
     word-wrap: nowrap;
 }
 
@@ -163,9 +165,9 @@ header {
 
 .founder {
     width: 60vw;
-    height: 60vw;
-    max-width: 500px;
-    max-height: 500px;
+    height: clamp(30vh,60vw, 50vh);
+    max-width: 50vh;
+    max-height: 50vh;
     border-radius: 10px;
     position: relative;
     z-index: 2;
@@ -486,6 +488,10 @@ header {
         left: 0;
     }
 
+
+    #projects {
+        padding: 100px 1%;
+    }
     .project-tile {
         width: calc(100% - 20px);
     }
