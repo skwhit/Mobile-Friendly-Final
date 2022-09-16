@@ -6,7 +6,6 @@
 
 main {
     width: 100vw;
-    
     position: relative;
     top: 70px;
     left: 0;
@@ -14,6 +13,18 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.overflow-yh {
+    overflow-y: hidden;
+}
+
+.overflow-wrap {
+    overflow: wrap;
+}
+
+.overflow-vis {
+    overflow: visible;
 }
 
 .info-container h5 {
