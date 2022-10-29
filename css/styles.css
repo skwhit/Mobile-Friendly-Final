@@ -36,14 +36,12 @@ header {
     align-items: center;
     height: 70px;
     width: 85vw;
-    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
 .logo-container {
     width: 70px;
     height: 100%;
-    /* border-radius: 50%; */
     padding: 5px;
 }
 
@@ -61,8 +59,6 @@ header {
     width: 50%;
     max-width: 600px;
     font-weight: 600;
-    /* border: 2px solid black; */
-
 }
 
 .nav-list li {
@@ -75,7 +71,6 @@ header {
 .nav-item {
     font-size: 1.5em;
     height: 100%;
-    /* height: 50px; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -83,8 +78,6 @@ header {
     transition: 0.7s ease;
     color: black;
     text-decoration: none;
-    /* border-radius: 5px; */
-    /* border: 2px solid black; */
 }
 
 .nav-item:hover {
@@ -109,14 +102,12 @@ header {
 
 #welcome-section {
     height: calc(100vh - 70px);
-    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2vh;
     background: linear-gradient(45deg, rgb(26, 26, 29) 10%, rgb(69, 69, 74));
-    /* background: black; */
     background-size: 100%;
     overflow-y: hidden;
 
@@ -128,12 +119,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    /* font-size: clamp(.5rem, 5vw, 3rem); */
     font-weight: bolder;
 }
 
 .welcome-heading h1 {
-    /* font-size: 3rem; */
     background: linear-gradient(45deg, #79B0E9, #DBCCA1, lightgrey, #DBCCA1, #79B0E9);
     font-size: clamp(3.1rem, 8vw, 10vh);
     background-size: 400%;
@@ -146,7 +135,6 @@ header {
 
 .welcome-heading h2 {
     color: lightgrey;
-    /* font-size: 1.8rem; */
     text-align: center;
     font-size: clamp(1.5rem, 4vw, 5vh);
     word-wrap: nowrap;
@@ -222,7 +210,6 @@ header {
 }
 
 #projects h2 {
-    /* font-size: clamp(1.7rem, 4vw, 2.4rem); */
     font-size: clamp(1.8rem, 5vw, 3rem);
     font-weight: bolder;
     font-style: italic;
@@ -281,10 +268,7 @@ header {
 .project-tile img {
     height: 50%;
     width: 100%;
-    /* border-radius: 5px 5px 0 0; */
-    /* opacity: .9; */
     transition: .5s ease-in-out;
-    /* object-fit: cover; */
 }
 
 .coming-soon img {
@@ -298,7 +282,6 @@ header {
   }
 
   .card-container {
-    /* height: 40%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,7 +291,6 @@ header {
     text-align: center;
     padding: 5% 3%;
     padding-bottom: 30px;
-    /* border: 2px solid white; */
   }
 
   .card-container a {
@@ -373,7 +355,6 @@ header {
   .contact {
     width: 100%;
     height: 80vh;
-    /* background: linear-gradient(45deg, #1c64b0 10%, #79B0E9); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,7 +387,6 @@ header {
   }
 
   .contact-links a {
-    /* text-decoration: none; */
     color: lightgrey;
     display: flex;
     align-items: center;
@@ -487,18 +467,13 @@ header {
         /* color: lightgrey; */
     }
 
-    .nav-item:hover {
-        /* color: black;
-        background-color: lightgrey; */
-    }
-
     .nav-list.active {
         left: 0;
     }
 
-
     #projects {
         padding: 100px 1%;
+        background-position: bottom;
     }
     .project-tile {
         width: calc(100% - 20px);
