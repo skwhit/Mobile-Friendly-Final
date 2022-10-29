@@ -214,7 +214,9 @@ header {
     background-size: cover;
 
     padding: 100px 5%;
-    color: lightgray
+    color: lightgray;
+    display: flex;
+    justify-content: center;
 }
 
 #projects h2 {
@@ -243,7 +245,9 @@ header {
     margin: 0 auto;
     border-radius: 5px;
     background-color:rgba(26, 26, 29,.9);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .project-tile-container {
