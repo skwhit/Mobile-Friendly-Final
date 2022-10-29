@@ -246,6 +246,11 @@ header {
 
 }
 
+.project-tile-container {
+    display: flex;
+    justify-content: center;
+}
+
 .project-tile {
     /* background-color:rgb(26, 26, 29); */
     /* border-radius: 5px; */
