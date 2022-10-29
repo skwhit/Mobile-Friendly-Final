@@ -171,6 +171,8 @@ header {
     border-radius: 10px;
     position: relative;
     z-index: 2;
+    object-fit: cover;
+    object-position: center;
 }
 
 .founder:hover {
@@ -256,9 +258,6 @@ header {
 }
 
 .project-tile {
-    /* background-color:rgb(26, 26, 29); */
-    /* border-radius: 5px; */
-    /* border: 2px solid white; */
     padding-top: 20px;
 }
 
