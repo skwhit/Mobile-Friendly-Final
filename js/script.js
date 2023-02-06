@@ -2,7 +2,9 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-list");
 const openResume = document.querySelector(".open-resume-button");
 const closeResume = document.querySelector(".close-resume-button");
-const resume = document.querySelector(".resume-container");
+const resumeContainer = document.querySelector(".resume-container");
+const resume = document.querySelector(".resume");
+
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -17,12 +19,12 @@ document.querySelectorAll(".nav-item").forEach((n) =>
 );
 
 openResume.addEventListener("click", () => {
-  resume.classList.add("resume-visible");
+  resumeContainer.classList.add("resume-visible");
   document.body.classList.add("overflow-hidden");
 });
 
 closeResume.addEventListener("click", () => {
-  resume.classList.remove("resume-visible");
+  resumeContainer.classList.remove("resume-visible");
   document.body.classList.remove("overflow-hidden");
   openResume.blur();
 });
