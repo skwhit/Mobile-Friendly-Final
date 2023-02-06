@@ -221,6 +221,7 @@ header {
   top: 100vh;
   visibility: hidden;
   transition: 0.3s;
+  overflow-x: hidden;
 }
 
 .close-resume {
@@ -241,6 +242,7 @@ header {
 .resume {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .resume-visible {
