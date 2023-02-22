@@ -424,15 +424,17 @@ header {
   color: lightgrey;
   text-decoration: none;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  width: 40%;
+  max-width: 600px;
+  min-width: 400px;
 }
 
 .contact-links a {
   color: lightgrey;
   display: flex;
   align-items: center;
-  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  gap: 0.3vw;
+  font-size: clamp(1.1rem, 1.3rem, 1.5rem);
   transition: 0.3s ease-out;
   text-decoration: none;
 }
@@ -513,7 +515,7 @@ footer h2 {
   }
 
   #projects {
-    padding: 1%;
+    padding: 1vw;
     background-position: bottom;
   }
   .project-tile {
@@ -530,7 +532,7 @@ footer h2 {
     justify-content: space-between;
     align-content: space-between;
     /* border: 2px solid white; */
-    max-width: 90vw;
+    max-width: 500px;
     padding: 0 50px;
     margin: 0 auto;
     height: 70px;
