@@ -400,7 +400,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  /* gap: 50px; */
 }
 
 .contact-heading {
@@ -408,12 +408,14 @@ header {
   color: lightgrey;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .contact-heading h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   font-style: italic;
+  margin-bottom: 20px;
+
 }
 
 .contact-heading h2 {
@@ -426,7 +428,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 40%;
-  max-width: 600px;
+  max-width: 500px;
   min-width: 400px;
 }
 
