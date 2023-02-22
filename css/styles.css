@@ -291,7 +291,7 @@ header {
 }
 
 .project-container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   border-radius: 5px;
   background-color: rgba(26, 26, 29, 0.9);
@@ -306,7 +306,7 @@ header {
 }
 
 .project-tile {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .img-container {
@@ -325,7 +325,7 @@ header {
 }
 
 .project-tile img {
-  height: 55%;
+  height: 50%;
   width: 100%;
   transition: 0.5s ease-in-out;
 }
@@ -349,7 +349,6 @@ header {
   color: lightgrey;
   text-align: center;
   padding: 5% 3%;
-  margin-bottom: 100px;
 }
 
 .card-container a {
@@ -425,7 +424,7 @@ header {
   color: lightgrey;
   text-decoration: none;
   display: flex;
-  gap: 2vw;
+  gap: 20px;
 }
 
 .contact-links a {
@@ -514,7 +513,7 @@ footer h2 {
   }
 
   #projects {
-    padding: 100px 1%;
+    padding: 1%;
     background-position: bottom;
   }
   .project-tile {
@@ -532,12 +531,10 @@ footer h2 {
     align-content: space-between;
     /* border: 2px solid white; */
     max-width: 90vw;
-    padding-left: 15vw;
+    padding: 0 50px;
     margin: 0 auto;
     height: 70px;
   }
 
-  .contact-links a {
-    width: calc(50% - 2vw);
-  }
+  
 }
