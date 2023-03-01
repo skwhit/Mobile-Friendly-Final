@@ -18,16 +18,16 @@ document.querySelectorAll(".nav-item").forEach((n) =>
   })
 );
 
-openResume.addEventListener("click", () => {
-  resumeContainer.classList.add("resume-visible");
-  document.body.classList.add("overflow-hidden");
-});
+// openResume.addEventListener("click", () => {
+//   resumeContainer.classList.add("resume-visible");
+//   document.body.classList.add("overflow-hidden");
+// });
 
-closeResume.addEventListener("click", () => {
-  resumeContainer.classList.remove("resume-visible");
-  document.body.classList.remove("overflow-hidden");
-  openResume.blur();
-});
+// closeResume.addEventListener("click", () => {
+//   resumeContainer.classList.remove("resume-visible");
+//   document.body.classList.remove("overflow-hidden");
+//   openResume.blur();
+// });
 
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
