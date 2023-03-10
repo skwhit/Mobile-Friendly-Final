@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdcb13b4.css",
+    "main.js": "/static/js/main.9a7f3af9.js",
+    "static/media/travel-destinations-generator.PNG": "/static/media/travel-destinations-generator.6e27b007e72b26e39208.PNG",
+    "static/media/react-media-app.PNG": "/static/media/react-media-app.44c3bfd6be56ccdbe427.PNG",
+    "static/media/messaging-app-landing.PNG": "/static/media/messaging-app-landing.1ca2f799e5960310a8a4.PNG",
+    "static/media/e-commerce-application.PNG": "/static/media/e-commerce-application.3e5093e619c6916f7052.PNG",
+    "static/media/SWhitlow.jpg": "/static/media/SWhitlow.a2ad6c5bd1f44c8a8c8e.jpg",
+    "static/media/react-currency-converter.PNG": "/static/media/react-currency-converter.c34629efd67d0680e2e1.PNG",
+    "static/media/calculator-app.PNG": "/static/media/calculator-app.39dc24289115ff7a51ad.PNG",
+    "index.html": "/index.html",
+    "main.cdcb13b4.css.map": "/static/css/main.cdcb13b4.css.map",
+    "main.9a7f3af9.js.map": "/static/js/main.9a7f3af9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdcb13b4.css",
+    "static/js/main.9a7f3af9.js"
+  ]
+}
