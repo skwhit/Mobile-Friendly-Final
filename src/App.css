@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  /* background: linear-gradient(
+  135deg,
+    rgb(192, 203, 211),
+    rgb(82, 146, 195)
+  ); */
+  background: linear-gradient(
+  135deg,
+    rgb(192, 203, 211),
+    /* rgb(164, 185, 218), */
+    rgb(212, 218, 223)
+  );
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100vw;
+}
+
+#tsparticles {
+  position: absolute;
+  z-index: -1;
+}
